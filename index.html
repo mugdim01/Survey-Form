@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 class="title">Welcome to the Survey form</h1>
+    <p class="description">Thank you for taking the time to complete this survey.</p>
+
+<form>
+    <div class="container">
+        <label for="name">Name: <br> <input type="text" class="name" placeholder="Enter your name" required></label> <br>
+        <label for="email">Email: <br> <input type="email" class="email" placeholder="Enter your email" required></label> <br>
+        <label for="age">Age (optional): <br> <input type="number" class="age" placeholder="Age" min="10" max="99"></label> <br>
+
+        <label>Which option best describes your current role?</label> <br>
+    <select class="select">
+        <option disabled>Select something</option>
+        <option>Student</option>
+        <option>Employed</option>
+        <option>Unemployed</option>
+        <option>Other</option>
+    </select>
+
+        <label>How many years of experience you have in Web development?</label> <br>
+        <input type="radio" name="radiobutton" value="0years"> 0 Years <br>
+        <input type="radio" name="radiobutton" value="1-4years"> 1 - 4 Years <br>
+        <input type="radio" name="radiobutton" value="5+years"> 5 + Years <br>
+
+        <label>What programming languages are you proficient in? (Select all that apply)</label> <br>
+        <input type="checkbox"> Python <br>
+        <input type="checkbox"> JavaScript <br>
+        <input type="checkbox"> Java <br>
+        <input type="checkbox"> C++  <br>
+        <input type="checkbox"> C# <br>
+        <input type="checkbox"> PHP <br>
+        <input type="checkbox"> None of them <br>
+
+        <label>Any comments or suggestions?</label> <br>
+        <textarea placeholder="Enter your comment..." rows="3" cols="30"></textarea>
+
+        <button type="submit" class="submit">SUBMIT</button>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    </div>
+</form>
+</body>
+</html>
